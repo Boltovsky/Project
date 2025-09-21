@@ -36,8 +36,9 @@ def check_comment_with_AI(text):
             "messages": [{"role": "user", "content": question}] 
         }
     )
+# dfgdfgdfg
+    # Обработка ответа 
 
-    # Обработка ответа
     response_data = response.json()
     msg = response_data["choices"][0]["message"]["content"]
     print(msg)
